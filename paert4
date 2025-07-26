@@ -1,0 +1,1970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        WEB2
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="nav-wrapper">
+    <div class="container">
+        <div class="nav">
+            <a href="#" class="logo">
+                <i class='bx bx-movie-play bx-tada main-color'></i>Entertaining<span class="main-color">Web</span>site
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Genre</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="http://localhost:63342/untitled41/cdzdbh.html?_ijt=knc0prjpsvnohbvdr7kijss8jo" class="btn btn-hover">
+                        <span>Sign in</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hero-section">
+    <div class="hero-slide">
+        <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+            <div class="hero-slide-item">
+                <img src="https://images.justwatch.com/backdrop/102141616/s1920/stranger-things.avif" alt="">
+                <div class="overlay"></div>
+                <div class="hero-slide-item-content">
+                    <div class="item-content-wraper">
+                        <div class="item-content-title top-down">
+                            Stranger Things (2016)
+                        </div>
+                        <div class="movie-infos top-down delay-2">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 Hour 20 Min</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18+</span>
+                            </div>
+                        </div>
+                        <div class="item-content-description top-down delay-4">
+                            Set in the fictional small town of Hawkins, Indiana, a group of nerdy children cross paths with a strange young girl named Eleven and befriend her. Their friendship leads to a bigger revelation about the town they live in and the supernatural elements that lie within an alternate dimension called the Upside-Down. When various forces threaten their town and its citizens, the kids embark on a series of dangerous adventures empowered by Eleven’s powers.
+                        </div>
+                        <div class="item-action top-down delay-6">
+                            <a href="#" class="btn btn-hover">
+                                <i class="bx bxs-right-arrow"></i>
+                                <span>Watch now</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-slide-item">
+                <img src="https://images.justwatch.com/backdrop/305500208/s1920/squid-game.avif" alt="">
+                <div class="overlay"></div>
+                <div class="hero-slide-item-content">
+                    <div class="item-content-wraper">
+                        <div class="item-content-title top-down">
+                            Squid Game (2021)
+                        </div>
+                        <div class="movie-infos top-down delay-2">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 Hour 50 Min</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                        <div class="item-content-description top-down delay-4">
+                            Squid Game - watch online: streaming, buy or rent
+                            Currently you are able to watch "Squid Game" streaming on Netflix. There aren't any free streaming options for Squid Game right now. If you want know when it is streaming for free, click 'Free' in the filters above and hit the notification bell.
+
+                        </div>
+                        <div class="item-action top-down delay-6">
+                            <a href="#" class="btn btn-hover">
+                                <i class="bx bxs-right-arrow"></i>
+                                <span>Watch now</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-slide-item">
+                <img src="https://images.justwatch.com/backdrop/332382466/s1920/the-bear.avif" alt="">
+                <div class="overlay"></div>
+                <div class="hero-slide-item-content">
+                    <div class="item-content-wraper">
+                        <div class="item-content-title top-down">
+                            The Bear (2022)
+                        </div>
+                        <div class="movie-infos top-down delay-2">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 Hour 29 Min</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                        <div class="item-content-description top-down delay-4">
+                            Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family
+                        </div>
+                        <div class="item-action top-down delay-6">
+                            <a href="#" class="btn btn-hover">
+                                <i class="bx bxs-right-arrow"></i>
+                                <span>Watch now</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="top-movies-slide">
+        <div class="owl-carousel" id="top-movies-slide">
+
+            <div class="movie-item">
+                <img src="https://images.justwatch.com/poster/332517597/s166/the-gilded-age.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        The Gilded Age (2022)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.3</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour </span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>19+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-item">
+                <img src="https://images.justwatch.com/poster/327271343/s166/a-knight-of-the-seven-kingdoms-the-hedge-knight.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        A Knight of the Seven Kingdoms: The Hedge Knight (2025)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour  30 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-item">
+                <img src="https://images.justwatch.com/poster/331853933/s166/outlander-blood-of-my-blood.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Outlander: Blood of My Blood (2025)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.3</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 10 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>19+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-item">
+                <img src="https://images.justwatch.com/poster/272856904/s166/the-summer-i-turned-pretty.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        The Summer I Turned Pretty (2022)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.1</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 20 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-item">
+                <img src="https://images.justwatch.com/poster/322754404/s166/cruel-intentions.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Cruel Intentions (2024)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.0</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 27 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-item">
+                <img src="https://images.justwatch.com/poster/321211145/s166/season-20.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Hell's Kitchen - Young Guns (2021)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.8</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 29 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>19+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="section-header">
+            latest movies
+        </div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/245514568/s166/season-19.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Top Gear - Series 19 (2013)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 2 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>20+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/149384048/s166/season-61.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Chopped - Season 61 (2025)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1Hour 10 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/309775280/s166/roadworthy-rescues.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Roadworthy Rescues (2022)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.1</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 20 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/325358496/s166/celebrity-iou.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Celebrity IOU (2020)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.0</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>51 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/331817443/s166/season-1.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Super Mega Cakes - Season 1 (2025)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.01</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 22 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/320793788/s166/season-5.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Richard Hammond's Workshop - Season 5
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.7</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1  Hour 3 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>15+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/308633830/s166/spy-x-family.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        SPY x FAMILY (2022)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.4</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 33 Min </span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>12+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="section-header">
+            latest series
+        </div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+
+            <a href="#" class="movie-item">
+                <img src="https://images.justwatch.com/poster/258271100/s166/peacemaker.avif" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Peacemaker (2022)
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.1</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>45 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>18+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5727104/portrait/1920x7708731f7ce5b9046198c7170361c71f15fd386fe7ee15640fd8e851a8c0f6d811a.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Tum Sai Tum Tak
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.0</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>40 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>Serial</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5774976/portrait/1920x770be1eb4efe9634f3aa2b0866167a55b08.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Kaalidhar Laapta
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.0</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>  1 Hour 22 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5742637/portrait/1920x770a2486b4f38814d0891be8e619cd92c5b82a0081319894d839881c53aaa8e39a0.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Detective Sherdil
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.1</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>44 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>Serial</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5786029/portrait/1920x770f8ca3d18690547ff8493ceeee45da6e0bdbcc5d208b94eafb4d0f5a79faa4435.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+The Bhootnii
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.2</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>  1 Hour 44 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5689119/portrait/1920x770d9706625088e42c29e5460ad4dd427817eafdc2c07e94679843abfe9bfa62d4d.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Mrs
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.1</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>33 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>Serial</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-9-aajtak/portrait/1920x7702188a3188e58446da2d900e65c8f73b5.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Aaj Tak
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.3</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>44 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>Serial</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="section-header">
+            latest cartoons
+        </div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5206539/portrait/1920x770ccae38d7ad174c62bd91132845c266669ac3dc2b628e4fe583efb774c7bd3235.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                       My Dear Bhootham
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 20 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277649/portrait/1920x770dd21dbf7241f4492a8c6313c2d727f6b.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Rocket Gangs
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 2 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-47269/portrait/0047269cover1730158198.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Choota Hatim and Seven Monsters
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 8 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-47267/portrait/0047267incover3e9a56d8e0f04f9cb029c05981eaabdc.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Love Ganesha
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 20 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5490168/portrait/1920x7704befe79176554dbfa98abe46b732f74e.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                      Pyaar Mohobbat and Happy Lucky
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 23 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z520482/portrait/1920x770706ca046bbb64f6f93df9b12b113339d.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                       Maa Duggar Bahan Katha
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour 2 Min</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="movie-item">
+                <img src="https://th.bing.com/th/id/OIP.thJFVn2hCkH0HO7XD2incQHaFZ?w=243&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3"  height="500px" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+Animal Jungle Book  Cartoon
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1 Hour</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>All</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="hero-slide-item">
+        <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/cover/1920x770db8cfc69059b46d8a18dbbc12d5b9b448126b3db25e94182bedd7f20cbfb1e8b.jpg" alt="">
+        <div class="overlay"></div>
+        <div class="hero-slide-item-content">
+            <div class="item-content-wraper">
+                <div class="item-content-title">
+                  Lost
+                </div>
+                <div class="movie-infos">
+                    <div class="movie-info">
+                        <i class="bx bxs-star"></i>
+                        <span>9.5</span>
+                    </div>
+                    <div class="movie-info">
+                        <i class="bx bxs-time"></i>
+                        <span>1 Hour 30 Min</span>
+                    </div>
+                    <div class="movie-info">
+                        <span>HD</span>
+                    </div>
+                    <div class="movie-info">
+                        <span>ALL</span>
+                    </div>
+                </div>
+                <div class="item-content-description">
+                    Key characters in the movie are played by Yami Gautam, who portrays Vidhi Sahani, Pankaj Kapur, who portrays Nanu, Rahul Khanna, who plays Ranjan Varman, Neil Bhoopalam, who plays Jeet, Pia Bajpiee who portrays Ankita, and Tushar Pandey who portrays Ishan Bharti. Aniruddha Roy Chowdhury directed the movie.
+                </div>
+                <div class="item-action">
+                    <a href="#" class="btn btn-hover">
+                        <i class="bx bxs-right-arrow"></i>
+                        <span>Watch now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="pricing">
+            <div class="pricing-header">
+                Entertaining<span class="main-color">Web</span>site pricing
+            </div>
+            <div class="pricing-list">
+                <div class="row">
+                    <div class="col-4 col-md-12 col-sm-12">
+                        <div class="pricing-box">
+                            <div class="pricing-box-header">
+                                <div class="pricing-name">
+                                    Basic
+                                </div>
+                                <div class="pricing-price">
+                                    Free
+                                </div>
+                            </div>
+                            <div class="pricing-box-content">
+                                <p>Originals</p>
+                                <p>Switch plans anytime</p>
+                                <p><del>105+ top Live</del></p>
+                                <p><del>TV Channels</del></p>
+                                <p><del>4K Video Quality</del></p>
+                            </div>
+                            <div class="pricing-box-action">
+                                <a href="#" class="btn btn-hover">
+                                    <span>Register now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-12 col-sm-12">
+                        <div class="pricing-box hightlight">
+                            <div class="pricing-box-header">
+                                <div class="pricing-name">
+                                    Premium
+                                </div>
+                                <div class="pricing-price">
+                                    $15.99 <span>/month</span>
+                                </div>
+                            </div>
+                            <div class="pricing-box-content">
+                                <p>Originals</p>
+                                <p>Switch plans anytime</p>
+                                <p>Full HD Video Quality</p>
+                                <p>105+ top Live</p>
+                                <p><del>TV Channels</del></p>
+                            </div>
+                            <div class="pricing-box-action">
+                                <a href="#" class="btn btn-hover">
+                                    <span>Register now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-12 col-sm-12">
+                        <div class="pricing-box">
+                            <div class="pricing-box-header">
+                                <div class="pricing-name">
+                                    VIP
+                                </div>
+                                <div class="pricing-price">
+                                    $35.99 <span>/month</span>
+                                </div>
+                            </div>
+                            <div class="pricing-box-content">
+                                <p>Originals</p>
+                                <p>Switch plans anytime</p>
+                                <p>105+ top Live</p>
+                                <p>TV Channels</p>
+                                <p>4K Video Quality</p>
+                            </div>
+                            <div class="pricing-box-action">
+                                <a href="#" class="btn btn-hover">
+                                    <span>Register now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-md-6 col-sm-12">
+                <div class="content">
+                    <a href="#" class="logo">
+                        <i class='bx bx-movie-play bx-tada main-color'></i>Entertaining<span class="main-color">Web</span>site
+                    </a>
+
+                    <p>We offer a comfortable and friendly user experience with highly evolved video streaming technology at amazing speed and crystal clear sounds., the online video streaming Over The Top (OTT) platform, we truly believe that for entertainment to come alive, you need to feel it. That’s where Entertaining websites brings in the advantage of the language of your comfort! With 12 navigational and featured languages across original features, live TV, catch up TV, lifestyle shows, children's programmes, exclusive short series and acclaimed plays - it’s unlimited entertainment in the language that sounds like home.Entertaining websites offers an exhaustive array of content; with 90+ live TV channels and 1.25 lac+ hours of viewing across the languages of English, Hindi, Bengali, Malayalam, Tamil, Telugu, Kannada, Marathi, Oriya, Bhojpuri, Gujarati & Punjabi making it a complete video destination for OTT viewers. Our exhaustive selection of Bollywood and language movies make us the preferred destination for an avid cinema connoisseur.</p>
+                    <div class="social-list">
+                        <a href="#" class="social-item">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="social-item">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="#" class="social-item">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-sm-12">
+                <div class="row">
+                    <div class="col-3 col-md-6 col-sm-6">
+                        <div class="content">
+                            <p><b>Entertainment</b></p>
+                            <ul class="footer-menu">
+                                <li><a href="#">Web Series</a></li>
+                                <li><a href="#"> TV-Serial</a></li>
+                                <li><a href="#">Hindi Movies</a></li>
+                                <li><a href="#">English Movies</a></li>
+                                <li><a href="#">Cartoon</a></li>
+                                <li><a href="#">Event Labs</a></li>
+                                <li><a href="#">Kitchen</a></li>
+                                <li><a href="#">Script</a></li>
+                                <li><a href="#">  Duranga 2</a></li>
+                                <li><a href="#">   Mithya</a></li>
+                                <li><a href="#">   Taj</a></li>
+                                <li><a href="#">   Sunflower</a></li>
+                                <li><a href="#">   Tripling</a></li>
+                                <li><a href="#">   Pitchers</a></li>
+                                <li><a href="#">  The Broken News</a></li>
+                                <li><a href="#">  Black Widows</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-6">
+                        <div class="content">
+                            <p><b>Browse Viewer</b></p>
+                            <ul class="footer-menu">
+                                <li><a href="#">Discover</a></li>
+                                <li><a href="#">Editor's Choice</a></li>
+                                    <li><a href="#">   Curated Collections</a></li>
+                                        <li><a href="#">    Pixabay Radio</a></li>
+                                            <li><a href="#">   Popular Images</a></li>
+                                                <li><a href="#">    Popular Videos</a></li>
+                                                    <li><a href="#">    Popular Music</a></li>
+                                                        <li><a href="#">    Popular Searches</a></li>
+                                <li><a href="#">Just Watch</a></li>
+                                <li><a href="#">Thriller Web</a></li>
+                                <li><a href="#">  API-Services</a></li>
+
+
+
+                                <li><a href="#">  Ayyana Mane</a></li>
+                                    <li><a href="#">   Murshid</a></li>
+                                        <li><a href="#">   Gyaarah Gyaarah</a></li>
+                                            <li><a href="#">   Manorathangal</a></li>
+                                                <li><a href="#">   Andhar Maya</a></li>
+                                                    <li><a href="#">   Seruppugal Jaakirathai</a></li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-6">
+                        <div class="content">
+                            <p><b>Helping Community</b></p>
+                            <ul class="footer-menu">
+                                <li><a href="#">Community</a></li>
+                                    <li><a href="#">   Blog</a></li>
+                                        <li><a href="#">   Forum</a></li>
+                                            <li><a href="#">   Creators</a></li>
+                                                <li><a href="#">   Contests</a></li>
+                                                    <li><a href="#">    New</a></li>
+                                                        <li><a href="#">    About-Movies</a></li>
+                                                            <li><a href="#">    About Us</a></li>
+                                                                <li><a href="#">   FAQ</a></li>
+                                                                    <li><a href="#">   License Summary</a></li>
+                                                                        <li><a href="#">    Terms of Service</a></li>
+                                                                            <li><a href="#">    Privacy Policy</a></li>
+                                                                                <li><a href="#">   Cookies Policy</a></li>
+                                                                                    <li><a href="#">   Digital Services Act</a></li>
+                                                                                        <li><a href="#">   Report Content </a></li>
+                                <li><a href="#">  Aindham Vedham</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-6">
+                        <div class="content">
+                            <p><b>Download app</b></p>
+                            <ul class="footer-menu">
+                                <li>
+                                    <a href="#">
+                                        <img src="https://www.pngall.com/wp-content/uploads/10/Google-Play-Logo-PNG-Images.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                      <p>Get help with Google Play</p>
+                                       <li> Get answers to common questions: Use Google Play Help.</li>
+                                        <li>  Get help from the Google Play community: Use the forum or tweet @GooglePlay.</li>
+                                        <li>   Email, chat, or request a call from us: Contact our support team in an available language.</li>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="copyright">
+    Copyright 2025
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="index3.js"></script>
+</body>
+
+</html>
+
+------------------------
+$(document).ready(() => {
+    $('#hamburger-menu').click(() => {
+        $('#hamburger-menu').toggleClass('active')
+        $('#nav-menu').toggleClass('active')
+    })
+
+    // setting owl carousel
+
+    let navText = ["<i class='bx bx-chevron-left'></i>", "<i class='bx bx-chevron-right'></i>"]
+
+    $('#hero-carousel').owlCarousel({
+        items: 1,
+        dots: false,
+        loop: true,
+        nav:true,
+        navText: navText,
+        autoplay: true,
+        autoplayHoverPause: true
+    })
+
+    $('#top-movies-slide').owlCarousel({
+        items: 2,
+        dots: false,
+        loop: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        responsive: {
+            500: {
+                items: 3
+            },
+            1280: {
+                items: 4
+            },
+            1600: {
+                items: 6
+            }
+        }
+    })
+
+    $('.movies-slide').owlCarousel({
+        items: 2,
+        dots: false,
+        nav:true,
+        navText: navText,
+        margin: 15,
+        responsive: {
+            500: {
+                items: 2
+            },
+            1280: {
+                items: 4
+            },
+            1600: {
+                items: 6
+            }
+        }
+    })
+})
+-------------------
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* MEDIUM SCREEN */
+
+@media only screen and (max-width: 1280px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* SMALL SCREEN */
+
+@media only screen and (max-width: 850px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+-----------
+:root {
+    --main-color: #1f83ed;
+    --body-bg: #181616;
+    --box-bg: #221f1f;
+    --text-color: #ffffff;
+
+    --nav-height: 60px;
+    --space-top: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    padding-top: var(--nav-height);
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #000000;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    height: var(--nav-height);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-menu li ~ li {
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-menu a:hover {
+    color: var(--main-color);
+}
+
+.nav-menu a.btn:hover,
+a.logo:hover,
+a.movie-item:hover {
+    color: unset;
+}
+
+.btn {
+    color: #ffffff;
+    padding: 0.25rem 1.5rem;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+
+.btn-hover::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-hover:hover::before {
+    width: 100%;
+}
+
+.btn i,
+.btn span {
+    z-index: 1;
+}
+
+.btn i {
+    margin-right: 1rem;
+}
+
+.hamburger-menu {
+    --size: 30px;
+    height: var(--size);
+    width: var(--size);
+    cursor: pointer;
+    z-index: 101;
+    position: relative;
+    display: none;
+    align-items: center;
+}
+
+.hamburger {
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    width: var(--size);
+    height: 3px;
+    border-radius: 0.5rem;
+    background-color: var(--text-color);
+    transition: 0.4s;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.hamburger::before {
+    top: -10px;
+}
+
+.hamburger::after {
+    bottom: -10px;
+}
+
+.hamburger-menu.active .hamburger {
+    background-color: transparent;
+}
+
+.hamburger-menu.active .hamburger::before {
+    transform-origin: top left;
+    transform: rotate(45deg);
+    left: 6px;
+}
+
+.hamburger-menu.active .hamburger::after {
+    transform-origin: bottom left;
+    transform: rotate(-45deg);
+    left: 6px;
+}
+
+.hero-slide-item {
+    padding-top: 40%;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-slide-item img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-slide-item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--text-color);
+    display: flex;
+}
+
+.item-content-wraper {
+    padding-left: 5rem;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.item-content-wraper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.item-content-title {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 900;
+}
+
+.movie-infos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: calc(var(--space-top) / 2);
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.movie-info span {
+    margin-left: 5px;
+}
+
+.movie-info i {
+    color: var(--main-color);
+}
+
+.movie-info ~ .movie-info {
+    margin-left: 5px;
+}
+
+.item-content-description {
+    font-size: 1.15rem;
+    margin-top: var(--space-top);
+    line-height: 1.5rem;
+}
+
+.item-action {
+    margin-top: var(--space-top);
+}
+
+.carousel-nav-center {
+    position: relative;
+}
+
+.carousel-nav-center .owl-nav button i {
+    font-size: 3rem;
+}
+
+.carousel-nav-center .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-nav-center .owl-nav .owl-prev {
+    position: absolute;
+    left: 5px;
+}
+
+.carousel-nav-center .owl-nav .owl-next {
+    position: absolute;
+    right: 5px;
+}
+
+.owl-nav button {
+    border: none;
+    outline: none;
+}
+
+.owl-nav button i {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+}
+
+.owl-nav button:hover i {
+    color: var(--main-color);
+}
+
+.top-down {
+    transform: translateY(-50px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.delay-2 {
+    transition-delay: 0.2s;
+}
+
+.delay-4 {
+    transition-delay: 0.4s;
+}
+
+.delay-6 {
+    transition-delay: 0.6s;
+}
+
+.delay-8 {
+    transition-delay: 0.8s;
+}
+
+.owl-item.active .top-down {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.movie-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-top: 140%;
+    cursor: pointer;
+}
+
+.movie-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s linear;
+}
+
+.movie-item:hover img {
+    transform: scale(1.2);
+}
+
+.movie-item-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.movie-item-content::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.movie-item-title {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 700;
+}
+
+.section {
+    padding-top: 80px;
+}
+
+.section-header {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-left: 4px solid var(--main-color);
+    display: flex;
+    align-items: center;
+}
+
+.pricing-header {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pricing-box {
+    padding: 50px;
+    margin: 15px 0;
+    background-color: var(--box-bg);
+    border-top: 5px solid transparent;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-box:hover {
+    transform: translateY(-20px);
+}
+
+.pricing-box.hightlight {
+    border-top: 5px solid var(--main-color);
+}
+
+.pricing-box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.pricing-price {
+    font-weight: 700;
+}
+
+.pricing-price span {
+    font-size: 1rem;
+}
+
+.pricing-box-content {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.25rem;
+}
+
+.pricing-box-action {
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer.section {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: var(--box-bg);
+}
+
+footer a:hover {
+    color: var(--main-color);
+}
+
+footer a.logo {
+    margin-top: -2.5rem;
+    display: block;
+}
+
+footer a.logo:hover {
+    color: unset;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-item {
+    --size: 30px;
+    height: var(--size);
+    width: var(--size);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    color: var(--main-color);
+}
+
+.social-item:hover {
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.social-item ~ .social-item {
+    margin-left: 20px;
+}
+
+footer .content {
+    margin-top: 20px;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu a {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-menu a:hover {
+    transform: translateX(5px);
+}
+
+.copyright {
+    padding: 10px;
+    border-top: 1px solid var(--body-bg);
+    background-color: var(--box-bg);
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1280px) {
+    html {
+        font-size: 14px;
+    }
+
+    .hero-slide-item {
+        padding-top: 50%;
+    }
+
+    .item-content-wraper {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-slide-item {
+        height: max-content;
+        padding-top: unset;
+    }
+
+    .item-content-wraper {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+        padding-right: 5rem;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .hero-slide-item-content {
+        position: relative;
+    }
+
+    .hero-slide-item img {
+        height: 100%;
+    }
+
+    .item-content-title {
+        font-size: 3rem;
+    }
+
+    .hamburger-menu {
+        display: grid;
+    }
+
+    .nav-menu {
+        /* display: none; */
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        background-color: #000000;
+        flex-direction: column;
+        width: 80%;
+        height: 100vh;
+        padding: 20px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-menu li {
+        margin: 10px 30px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
