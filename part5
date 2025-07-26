@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style3456.css" />
+</head>
+<body>
+<div class="container">
+    <h1>🎬 Offline Movie Search</h1>
+    <input type="text" id="searchInput" placeholder="Search movies..." onkeyup="searchMovies()">
+    <div id="movieList" class="movie-list"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+--------------------
+// Static movie list with local image paths or image URLs
+const movies = [
+    {
+        title: "The serious man",
+        year: 2009,
+        genre: "Action, Sci-Fi",
+        image: "https://image.tmdb.org/t/p/original/rftlYqErHWdsmpeD63bx6pA3sxv.jpg"
+    },
+    {
+        title: "The Dark Knight",
+        year: 2008,
+        genre: "Action, Crime",
+        image: "https://tse4.mm.bing.net/th/id/OIP.NN9rKH-vZbFgtH4FuoW7OwHaLH?r=0&cb=thvnextc1&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        title: "Interstellar",
+        year: 2014,
+        genre: "Adventure, Drama",
+        image: "https://tse1.mm.bing.net/th/id/OIP.IuuohBMqKkT8LCNUWL4W3QHaJQ?r=0&cb=thvnextc1&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        title: "Parasite",
+        year: 2019,
+        genre: "Thriller, Drama",
+        image: "https://tse1.mm.bing.net/th/id/OIP.OQRSb6U9ZnaB9MmSywHxPgHaJ4?r=0&cb=thvnextc1&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        title: "Joker",
+        year: 2019,
+        genre: "Crime, Drama",
+        image: "https://tse3.mm.bing.net/th/id/OIP.cl1rfqFQWBv0mOL7Wk8g2gHaK4?r=0&cb=thvnextc1&rs=1&pid=ImgDetMain&o=7&rm=3"
+    }, {
+        title: "Sister Midnight (2025)",
+        year: 2025,
+        genre: "Comedy, Drama, Dramedy",
+        image: "https://images.justwatch.com/poster/330059348/s166/sister-midnight.avif"
+    }
+    , {
+        title: "Santosh (2024)",
+        year:2024 ,
+        genre: "Mystery & Thriller, Crime, Drama",
+        image: "https://images.justwatch.com/poster/323205523/s166/santosh-2024.avif"
+    }
+    , {
+        title: "Superboys of Malegaon (2025)",
+        year: 2025,
+        genre: "Comedy, Drama, Dramedy",
+        image: "https://images.justwatch.com/poster/320693766/s166/superboys-of-malegaon.avif"
+    }
+    , {
+        title: "Shrek 5 (2026)",
+        year:2026 ,
+        genre: "Fantasy, Animation, Kids & Family, Comedy, Family Animation",
+        image: "https://images.justwatch.com/poster/318670349/s166/shrek-5.avif"
+    } , {
+        title: "The Naked Gun (2025)",
+        year: 2025,
+        genre: "Comedy, Crime, Action & Adventure, Action Comedy",
+        image: "https://images.justwatch.com/poster/332051109/s166/the-naked-gun-2025.avif"
+    } , {
+        title: "Wicked: For Good (2025)",
+        year: 2025,
+        genre: "Kids & Family, Fantasy, Romance, Musical",
+        image: "https://images.justwatch.com/poster/331760654/s166/wicked-part-2.avif"
+    } , {
+        title: "Freakier Friday (2025)",
+        year: 2025,
+        genre: "Comedy, Kids & Family, Fantasy, Modern Fantasy",
+        image: "https://images.justwatch.com/poster/331807288/s166/freaky-friday-2-2025.avif"
+    } , {
+        title: "Avengers: Secret Wars (2027)",
+        year: 2027,
+        genre: "Science-Fiction, Action & Adventure, Superhero",
+        image: "https://images.justwatch.com/poster/319495288/s166/avengers-secret-wars.avif"
+    } , {
+        title: "Jurassic World: Rebirth (2025)",
+        year:2025,
+        genre: "Action & Adventure, Science-Fiction, Mystery & Thriller, Invasion",
+        image: "https://images.justwatch.com/poster/331321479/s166/jurassic-world-4.avif"
+    } , {
+        title: "Bhoghee (2025)",
+        year: 2025,
+        genre: "Action & Adventure",
+        image: "https://images.justwatch.com/poster/333461366/s166/bhoghee.avif"
+    } , {
+        title: "Por Thozhil (2023)",
+        year: 2023,
+        genre: "Action & Adventure, Crime, Mystery & Thriller, Bollywood, Action Thriller",
+        image: "https://images.justwatch.com/poster/313052642/s166/por-thozhil.avif"
+    } , {
+        title: "Varisu (2023)",
+        year:2023 ,
+        genre: "Action & Adventure, Comedy, Drama, Bollywood, Action Thriller",
+        image: "https://images.justwatch.com/poster/286728411/s166/varisu.avif"
+    } , {
+        title: "Sankrathiki Vasthunam (2025)",
+        year: 2025,
+        genre: "Action & Adventure, Comedy, Action Comedy",
+        image: "https://images.justwatch.com/poster/326359444/s166/sankrathiki-vasthunam.avif"
+    } , {
+        title: "Game Changer (2025)",
+        year: 2025,
+        genre: "Action & Adventure, Drama, Mystery & Thriller, Bollywood, Action Thriller",
+        image: "https://images.justwatch.com/poster/323398379/s166/game-changer-2023.avif"
+    } , {
+        title: "Gentlewoman (2025)",
+        year: 2025,
+        genre: "Mystery & Thriller, Drama, Bollywood",
+        image: "https://images.justwatch.com/poster/324979633/s166/gentlewoman.avif"
+    } , {
+        title: "Oru Jaathi Jaathakam (2025)",
+        year:2025 ,
+        genre: "Romance, Comedy, Bollywood",
+        image: "https://images.justwatch.com/poster/319081325/s166/oru-jaathi-oru-jaathakam.avif"
+    } , {
+        title: "Bougainvillea (2024)",
+        year: 2024,
+        genre: "Mystery & Thriller, Action & Adventure, Crime, Action Thriller",
+        image: "https://images.justwatch.com/poster/321261272/s166/bougainvillea.avif"
+    } , {
+        title: "A.R.M (2024)",
+        year: 2024,
+        genre: "Drama, Comedy, Fantasy, Action Adventure",
+        image: "https://images.justwatch.com/poster/321342355/s166/ajayante-randam-moshanam.avif"
+    } , {
+        title: "Narivetta (2025)",
+        year: 2025,
+        genre: "Drama, Action & Adventure, Mystery & Thriller, Action Thriller",
+        image: "https://images.justwatch.com/poster/332949513/s166/narivetta.avif"
+    } , {
+        title: "Jaat (2025)",
+        year: 2025,
+        genre: "Mystery & Thriller, Crime, Action & Adventure, Drama, Action Thriller",
+        image: "https://images.justwatch.com/poster/324739784/s166/jaat-2025.avif"
+    } , {
+        title: "HIT: The Third Case (2025)",
+        year: 2025,
+        genre: "Mystery & Thriller, Action & Adventure, Crime, Action Thriller",
+        image: "https://images.justwatch.com/poster/320200155/s166/hit-3.avif"
+    } , {
+        title: "Kingdom (2025)",
+        year:2025 ,
+        genre: "Drama, Mystery & Thriller, War & Military, Action & Adventure, Action Thriller",
+        image: "https://images.justwatch.com/poster/330174447/s166/vd12.avif"
+    } , {
+        title: "The Ghazi Attack (2017)",
+        year: 2017,
+        genre: "Mystery & Thriller, Action & Adventure, Drama, War & Military, Bollywood",
+        image: "https://images.justwatch.com/poster/202440474/s166/the-ghazi-attack.avif"
+    } , {
+        title: "Devil (2023)",
+        year: 2023,
+        genre: "History, Action & Adventure, Drama, Mystery Thriller",
+        image: "https://images.justwatch.com/poster/311314109/s166/devil-2023.avif"
+    } , {
+        title: "Tiger Zinda Hai (2017)",
+        year:2017 ,
+        genre: "Mystery & Thriller, Action & Adventure, Action Thriller",
+        image: "https://images.justwatch.com/poster/293882611/s166/tiger-zinda-hai.avif"
+    } , {
+        title: "Dhoom 2 (2006)",
+        year: 2006,
+        genre: "Crime, Drama, Action & Adventure, Mystery & Thriller, Bollywood, Action Thriller",
+        image: "https://images.justwatch.com/poster/179620876/s166/dhoom-2.avif"
+    } , {
+        title: "Detective Byomkesh Bakshy! (2015)",
+        year: 2015,
+        genre: "Action & Adventure, Mystery & Thriller, Drama, Crime, Detective Crime",
+        image: "https://images.justwatch.com/poster/139220523/s166/detective-byomkesh-bakshy.avif"
+    } , {
+        title: "New York (2009)",
+        year:2009 ,
+        genre: "Mystery & Thriller, Crime, Drama, Bollywood",
+        image: "https://images.justwatch.com/poster/183194757/s166/new-york.avif"
+    } , {
+        title: "Bewakoofiyaan (2014)",
+        year:2014 ,
+        genre: "Drama, Romance, Comedy, RomCom, Dramedy",
+        image: "https://images.justwatch.com/poster/209968475/s166/bewakoofiyaan.avif"
+    } , {
+        title: "Dhoom 3 (2013)",
+        year: 2013,
+        genre: "Crime, Action & Adventure, Drama, Mystery & Thriller, Bollywood",
+        image: "https://images.justwatch.com/poster/303990419/s166/dhoom-3.avif"
+    } , {
+        title: "Golmaal Again (2017)",
+        year:2017 ,
+        genre: "Action & Adventure, Fantasy, Horror, Comedy, Bollywood",
+        image: "https://images.justwatch.com/poster/47672671/s166/golmaal-again.avif"
+    } , {
+        title: "Salaar (2023)",
+        year: 2023,
+        genre: "Action & Adventure, Crime, Drama, Mystery & Thriller, Action Thriller",
+        image: "https://images.justwatch.com/poster/310502799/s166/salaar.avif"
+    } , {
+        title: "Brahmāstra Part One: Shiva (2022)",
+        year:2022,
+        genre: "Fantasy, Action Adventure",
+        image: "https://images.justwatch.com/poster/301476523/s166/brahmastra.avif"
+    } , {
+        title: "Sultan (2016)",
+        year: 2016,
+        genre: "Action & Adventure, Romance, Drama, Sport, Sports Drama",
+        image: "https://images.justwatch.com/poster/31697418/s166/sultan.avif"
+    }
+
+
+];
+
+
+
+
+window.onload = () => displayMovies(movies);
+
+function displayMovies(list) {
+    const movieList = document.getElementById("movieList");
+    movieList.innerHTML = "";
+
+    list.forEach(movie => {
+        const movieCard = document.createElement("div");
+        movieCard.className = "movie";
+        movieCard.innerHTML = `
+      <img src="${movie.image}" alt="${movie.title}">
+      <h3>${movie.title}</h3>
+      <p>Year: ${movie.year}</p>
+      <p>Genre: ${movie.genre}</p>
+    `;
+        movieList.appendChild(movieCard);
+    });
+}
+
+function searchMovies() {
+    const query = document.getElementById("searchInput").value.toLowerCase();
+    const filtered = movies.filter(movie =>
+        movie.title.toLowerCase().includes(query) ||
+        movie.genre.toLowerCase().includes(query)
+    );
+    displayMovies(filtered);
+}
+------------------
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+input {
+    padding: 12px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.movie {
+    background-color: #2c2c2c;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.movie p {
+    color: #ccc;
+    font-size: 14px;
+}
